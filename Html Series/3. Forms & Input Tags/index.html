@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in HTML - Zeeshan</title>
+  </head>
+  <body>
+    <h1>This is all about the forms in the HTML</h1>
+    <form action="post">
+      <div>
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required />
+      </div>
+
+      <div>
+        <label for="male">Male</label>
+        <input type="radio" name="male" id="male" value="male">
+        <label for="Female">Fermale</label>
+        <input type="radio" name="male" id="Female" value="female">
+      </div>
+      <!-- name must be kept same for radioactivity -->
+
+      <label for="eligibility">Are you eligible?</label>
+      <input type="checkbox" name="eligiblity" id="eligibility">
+
+      <div>
+        <label for="takeinput">Provide some feedback</label><br>
+        <textarea name="takeinput" id="takeinput" rows="5" cols="10"></textarea>
+      </div>
+
+      <div>
+      <select name="City" id="city">
+        <option value="Lahore">Lahore</option >
+        <option value="Karachi">karachi</option>
+        <option value="Islamabad">Islamabad</option>
+      </select>
+    </div>
+    </form>
+  </body>
+</html>
