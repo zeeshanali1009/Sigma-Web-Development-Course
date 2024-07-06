@@ -1,0 +1,24 @@
+/* Element Selectors */
+p{
+    color: blue;
+}
+/* Class Selectors */
+.firstclass{
+    background-color: red;
+    color: black;
+}
+/* Id selectors */
+#firstid{
+    background-color: blueviolet
+   
+}
+/* Universal selector */
+*{
+    padding: 0px;
+        margin: 0px;
+}
+/* Child Selector */
+div > li {
+    color: brown;
+}
+/* descendant  */
